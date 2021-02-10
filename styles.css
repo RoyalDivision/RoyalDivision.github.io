@@ -11,6 +11,8 @@ body {
   user-select: none;
 }
 
+#foo {}
+
 #content {
   display: flex;
   height: 100vh;
