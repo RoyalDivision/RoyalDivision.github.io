@@ -10,12 +10,15 @@
 
 <body>
   <div id="content">
-    <div id="top">
+
+    <!-- Title & Video -->
+    <div id="hero">
       <div id="no-select"></div>"
       <div id="background">
         <div class="video-container">
           <div class="overlay"></div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/9t-fnCq0L6k?mute=1&autoplay=1&loop=1&playlist=9t-fnCq0L6k&controls=0&modestbranding=1"
+          <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/9t-fnCq0L6k?mute=1&autoplay=1&loop=1&playlist=9t-fnCq0L6k&controls=0&modestbranding=1"
             frameborder="0" allow="
           accelerometer; autoplay;
           clipboard-write; encrypted-media;
@@ -25,21 +28,30 @@
       </div>
       <img id="logo" src="./assets/logo.png" />
     </div>
-    <div id="bottom">
-      <div id="background-camo">
+
+    <!-- Coming Soon & Social -->
+    <div id="connect">
+      <!-- <div id="background-camo">
         <img src="./assets/camo.jpg">
-      </div>
+      </div> -->
+
+      <!-- <div id="roadmap-primer">
+        <div id="road-primer-background"></div>
+        <p>Roadmap</p>
+      </div> -->
+
       <div id="info">
         <span id="release-date">
           EARLY 2022
         </span>
       </div>
+
       <div id="social">
-        <a href="" target="_blank">
+        <a class="tooltip" id="social-steam" data-text="Currently in private beta">
           <i class="fab fa-steam"></i>
         </a>
 
-        <a href="" target="_blank">
+        <a href="https://twitter.com/royaldivisiong1" target="_blank">
           <i class="fab fa-twitter"></i>
         </a>
 
@@ -47,9 +59,116 @@
           <i class="fab fa-youtube"></i>
         </a>
 
-        <a href="" target="_blank">
+        <a href="https://www.reddit.com/r/RoyalDivision" target="_blank">
           <i class="fab fa-reddit"></i>
         </a>
+      </div>
+    </div>
+
+    <!-- Roadmap -->
+    <div id="roadmap">
+      <div id="roadmap-primer-tab">
+        <i class="fas fa-arrow-down"></i>
+
+        <div class="tab-circle tab-circle-left"></div>
+        <div class="tab-circle tab-circle-right"></div>
+        <div class="tab-square tab-square-left"></div>
+        <div class="tab-square tab-square-right"></div>
+      </div>
+
+      <div id="roadmap-content">
+        <h2>Roadmap</h2>
+        <ul id="roadmap-list">
+          <li class="roadmap-list-item">
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-horizontal"></div>
+            <div class="roadmap-list-item-chart-joint"></div>
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-vertical"></div>
+            <div class="roadmap-list-item-icon completed"></div>
+
+            <div class="roadmap-list-item-content">
+              <p class="roadmap-list-item-title">Lorem ipsum dolor sit amet consectetur</p>
+
+              <div class="roadmap-list-box">
+                <p class="roadmap-list-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco
+                  laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse
+                  cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia
+                  deserunt mollit anim id est laborum.</p>
+
+                <div class="roadmap-list-item-media-collection">
+                  <img src="https://picsum.photos/id/10/200" class="roadmap-list-item-media-item">
+                  <img src="https://picsum.photos/id/20/200" class="roadmap-list-item-media-item">
+                  <img src="https://picsum.photos/id/30/200" class="roadmap-list-item-media-item">
+                  <img src="https://picsum.photos/id/40/200" class="roadmap-list-item-media-item">
+                  <img src="https://picsum.photos/id/50/200" class="roadmap-list-item-media-item">
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="roadmap-list-item">
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-horizontal"></div>
+            <div class="roadmap-list-item-chart-joint"></div>
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-previous-vertical-connector"></div>
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-vertical"></div>
+            <div class="roadmap-list-item-icon active"></div>
+
+            <div class="roadmap-list-item-content">
+              <p class="roadmap-list-item-title">Lorem ipsum dolor sit amet consectetur</p>
+
+              <div class="roadmap-list-box">
+                <p class="roadmap-list-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco
+                  laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse
+                  cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia
+                  deserunt mollit anim id est laborum.</p>
+
+                <div class="roadmap-list-item-media-collection">
+                  <img src="https://picsum.photos/id/10/200" class="roadmap-list-item-media-item">
+                  <img src="https://picsum.photos/id/20/200" class="roadmap-list-item-media-item">
+                  <img src="https://picsum.photos/id/30/200" class="roadmap-list-item-media-item">
+                  <img src="https://picsum.photos/id/40/200" class="roadmap-list-item-media-item">
+                  <img src="https://picsum.photos/id/50/200" class="roadmap-list-item-media-item">
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="roadmap-list-item">
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-horizontal"></div>
+            <div class="roadmap-list-item-chart-joint"></div>
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-previous-vertical-connector"></div>
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-vertical"></div>
+            <div class="roadmap-list-item-icon roadmap-list-item-icon-empty-content"></div>
+
+            <div class="roadmap-list-item-content">
+              <p class="roadmap-list-item-title">Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+          </li>
+
+          <li class="roadmap-list-item">
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-horizontal"></div>
+            <div class="roadmap-list-item-chart-joint"></div>
+            <div class="roadmap-list-item-chart roadmap-list-item-chart-previous-vertical-connector"></div>
+            <div class="roadmap-list-item-icon roadmap-list-item-icon-empty-content"></div>
+
+            <div class="roadmap-list-item-content">
+              <p class="roadmap-list-item-title">Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
