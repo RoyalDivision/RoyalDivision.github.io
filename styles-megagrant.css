@@ -261,7 +261,7 @@ i.fab.fa-reddit {
   right: 130%;
 }
 
-#roadmap {
+#roadmap, #about-me {
   /* border-top: 3px dotted rgb(78, 0, 0); */
   background-color: #101010;
   background-image: radial-gradient(circle at 2px 2px, #2525251c 2px, transparent 0);
@@ -342,16 +342,30 @@ i.fab.fa-reddit {
   right: -10px;
 }
 
-#roadmap h2 {
+#roadmap h2, #about-me h2 {
   margin-bottom: 60px;
   font-family: 'Plavsky';
   color: #adadad;
   font-size: 2em;
 }
 
-#roadmap #roadmap-content {
+#about-me-hero-img {
+  background-image: url('./assets/me.jpeg');
+  background-size: 100%;
+  height: 200px;
+  -webkit-mask: linear-gradient(#fff,transparent);
+  mask: linear-gradient(#fff,transparent);
+  /* width: 100%; */
+}
+
+#roadmap #roadmap-content, #roadmap #about-me {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+#about-me img {
+  width: 100%;
+  height: auto;
 }
 
 #roadmap li.roadmap-list-item {
@@ -376,7 +390,7 @@ i.fab.fa-reddit {
   background-color: #61ff0073;
   border: 4px solid #61ff0073;
   width: 36px;
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 #roadmap li.roadmap-list-item .roadmap-list-item-icon.active {
@@ -403,11 +417,19 @@ i.fab.fa-reddit {
   color: #676767;
 }
 
-#roadmap li.roadmap-list-item .roadmap-list-box {
+.roadmap-list-box {
   background-color: #ffffff0d;
   padding: 10px;
   border-radius: 8px;
   /* border: 2px solid black; */
+}
+
+#about-me p {
+  color: #adadad;
+}
+
+p a {
+  color: #ff0000b5;
 }
 
 #roadmap li .roadmap-list-media-collection {}
