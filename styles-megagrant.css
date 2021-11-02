@@ -373,7 +373,32 @@ i.fab.fa-reddit {
   list-style: none;
   margin-bottom: 90px;
   position: relative;
+  flex:1;
+
+/* 
+    list-style: none;
+    margin-bottom: 90px;
+    position: relative;
+    text-align: center;
+    max-width: 300px; */
 }
+
+#ue-usage li.roadmap-list-item {
+  
+    list-style: none;
+    margin-bottom: 90px;
+    position: relative;
+    text-align: center;
+    max-width: 300px;
+}
+
+#ue-usage li.roadmap-list-item p {
+  margin: 0;
+}
+
+/* #roadmap li.roadmap-list-item p {
+  margin: 0;
+} */
 
 #roadmap li.roadmap-list-item .roadmap-list-item-icon {
   background-color: #0a0a0a;
@@ -421,6 +446,7 @@ i.fab.fa-reddit {
   background-color: #ffffff0d;
   padding: 10px;
   border-radius: 8px;
+  margin-top: 20px;
   /* border: 2px solid black; */
 }
 
