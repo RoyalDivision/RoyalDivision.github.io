@@ -383,6 +383,29 @@ i.fab.fa-reddit {
     max-width: 300px; */
 }
 
+.youtube-outbound {
+  position: relative;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.youtube-outbound i {
+  z-index: 9;
+  top: 3px;
+  left: -2px;
+}
+
+.youtube-outbound a {
+  background: rgba(255, 0, 0, .2);
+  color: white;
+  border-radius: 8px;
+  margin: 0;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+}
+
 #ue-usage li.roadmap-list-item {
   
     list-style: none;
