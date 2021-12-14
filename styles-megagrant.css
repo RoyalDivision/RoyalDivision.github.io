@@ -236,6 +236,10 @@ i.fab.fa-reddit {
   position: relative;
 }
 
+i.fab.fa-discord {
+  color: #404EED;
+}
+
 .tooltip:before {
   content: attr(data-text);
   position: absolute;
